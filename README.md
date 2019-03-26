@@ -9,6 +9,7 @@ The portfolio structure that was required for the course was:
  - no short selling
 
 The notebook is programmed to pull two csv files with the following information:
+    
     excess returns csv:
         monthly risk free rate for the studied period
         monthly rolling excess returns for each individual security for the studied period
@@ -18,15 +19,16 @@ The notebook is programmed to pull two csv files with the following information:
         standard deviations for each security for the studied period
 
 From there the notebook will do the rest, generating the minimum variance and optimal portfolios, 1,000 portfolios on the efficent frontier, 10,000 dummy portfolios to illustrate the efficent frontier, and plotting it all.
+
 ----
 
 ## How you can take it further
 
-The obvious first step is to make it more dynamic, let the user enter an arbitrary list of tickers and go from there, pulling whatever data you need at runtime.
+- The obvious first step is to make it more dynamic, let the user enter an arbitrary list of tickers and go from there, pulling whatever data you need at runtime.
 
-The more tricky second step would be to allow users to select a set of constraints to optimize for. You could take this in a few different directions.
+- The more tricky second step would be to allow users to select a set of constraints to optimize for. You could take this in a few different directions.
 
-Making it prettier could be easily accomplished by developing a better method to generate the dummy portfolios.
+- Making it prettier could be easily accomplished by developing a better method to generate the dummy portfolios.
 
 ----
 
