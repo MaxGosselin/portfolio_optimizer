@@ -145,6 +145,3 @@ def generate_efficient_frontier(targets, xs_avg, covariance_matrix):
 
     return portfolios
 
-if __name__ == '__main__':
-    for i in range(69):
-        print('penis <3')
