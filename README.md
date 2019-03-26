@@ -1,5 +1,5 @@
 # Portfolio Optimizer
-----
+
 
 The portfolio optimizer allows users to generate an efficiency frontier for a given portfolio of assets.
 Risk tolerances and other portfolio structure restraints can be added at will.
@@ -20,7 +20,6 @@ The notebook is programmed to pull two csv files with the following information:
 
 From there the notebook will do the rest, generating the minimum variance and optimal portfolios, 1,000 portfolios on the efficent frontier, 10,000 dummy portfolios to illustrate the efficent frontier, and plotting it all.
 
-----
 
 ## How you can take it further
 
@@ -30,7 +29,6 @@ From there the notebook will do the rest, generating the minimum variance and op
 
 - Making it prettier could be easily accomplished by developing a better method to generate the dummy portfolios.
 
-----
 
 ## Released under the MIT License
 
